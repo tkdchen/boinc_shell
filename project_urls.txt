@@ -1,0 +1,9 @@
+SETI@home	http://setiathome.berkeley.edu/
+Einstein@home	http://einstein.phys.uwm.edu/
+- http://einstein.phys.uwm.edu/am_get_info.php?account_key=be23ae9d438ca70ed2a545388a05672d
+
+Rosetta@home	http://boinc.bakerlab.org/rosetta/
+- http://boinc.bakerlab.org/rosetta/lookup_account.php?email_addr=qcxhome@gmail.com&passwd_hash=d26c5b8d7702feacd60426241333ab8a
+- http://boinc.bakerlab.org/rosetta/am_get_info.php?account_key=fd9964bfb3381e72bd393348073a019b
+
+World Community Grid	http://www.worldcommunitygrid.org/
