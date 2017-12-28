@@ -10,12 +10,9 @@ from definition import GUI_RPC_AUTH_CONFIG
 
 LOCAL_HOST        = "localhost"
 LOCAL_LOOPBACK_IP = "127.0.0.1"
-GUI_RPC_PORT      = 1043
+GUI_RPC_PORT      = 31416
 
 RPC_REQUEST_TEMPLATE = "<boinc_gui_rpc_request>\n" \
-                       "   <major_version>%d</major_version>\n" \
-                       "   <minor_version>%d</minor_version>\n" \
-                       "   <release>%d</release>\n" \
                        "%s\n" \
                        "</boinc_gui_rpc_request>\n\003"
 
@@ -41,11 +38,7 @@ class shell_core(object):
         self.sock.close()
 
     def send_request(self, request):
-        s = RPC_REQUEST_TEMPLATE % (
-            BOINC_MAJOR_VERSION,
-            BOINC_MINOR_VERSION,
-            BOINC_RELEASE,
-            request)
+        s = RPC_REQUEST_TEMPLATE % (request)
 
         self.sock.send(s)
 
